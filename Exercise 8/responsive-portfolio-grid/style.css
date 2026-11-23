@@ -1,0 +1,171 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #F5DCE3;
+  background-color: #2B1018;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+.page-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+/* Introduction */
+
+.intro {
+  max-width: 760px;
+  margin-bottom: 32px;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+  color: #E9A6B8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-bottom: 16px;
+  color: #FCEFF2;
+  font-size: 3rem;
+  line-height: 1.05;
+}
+
+.intro p:last-child {
+  color: #E9A6B8;
+  font-size: 1.1rem;
+}
+
+/* Portfolio Grid */
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+
+/* Resource Cards */
+
+.resource-card {
+  min-width: 0;
+  min-height: 220px;
+  padding: 26px;
+  border: 1px solid #572033;
+  border-radius: 24px;
+  background-color: #3D1A28;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
+}
+
+.resource-card h2 {
+  margin-bottom: 12px;
+  color: #FCEFF2;
+  font-size: 1.35rem;
+  line-height: 1.15;
+}
+
+.resource-kind {
+  margin-bottom: 14px;
+  color: #E9A6B8;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.resource-card p:not(.resource-kind):not(.resource-note) {
+  color: #E8C5D0;
+}
+
+.resource-note {
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding: 6px 10px;
+  border: 1px solid #9F4564;
+  border-radius: 999px;
+  color: #F5DCE3;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+/* Highlight Resource */
+
+.highlight-resource {
+  grid-column: span 2;
+  background-color: #7F2949;
+  color: #FFFFFF;
+}
+
+.highlight-resource h2 {
+  color: #FFFFFF;
+}
+
+.highlight-resource .resource-kind,
+.highlight-resource p:not(.resource-kind):not(.resource-note) {
+  color: #FCE4EC;
+}
+
+.highlight-resource .resource-note {
+  border-color: #E9A6B8;
+  background-color: #9F4564;
+  color: #FFFFFF;
+}
+
+/* Medium Screens */
+
+@media (max-width: 900px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+}
+
+/* Small Screens */
+
+@media (max-width: 560px) {
+  .page-shell {
+    padding: 32px 16px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .highlight-resource {
+    grid-column: auto;
+  }
+
+  .resource-card {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+
+
+
+
+
