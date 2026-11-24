@@ -1,0 +1,103 @@
+body {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    font-family: Arial, sans-serif;
+}
+
+.custom-navbar {
+    background-color: #0f172a;
+}
+
+.navbar-brand {
+    color: #7dd3fc;
+}
+
+.nav-link {
+    color: #e2e8f0 !important;
+}
+
+.nav-link:hover {
+    color: #38bdf8 !important;
+}
+
+.hero-section {
+    background-color: #334155;
+}
+
+.hero-section h1 {
+    color: #7dd3fc;
+}
+
+.eyebrow {
+    color: #38bdf8;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.info-panel {
+    background-color: #0f172a;
+    border-radius: 12px;
+    border-left: 5px solid #38bdf8;
+}
+
+.services-section {
+    background-color: #1e293b;
+}
+
+.service-card {
+    background-color: #334155;
+    color: #e2e8f0;
+    border: 1px solid #475569;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    background-color: #475569;
+    transform: translateY(-5px);
+}
+
+.service-card .card-title {
+    color: #7dd3fc;
+}
+
+.contact-section {
+    background-color: #334155;
+}
+
+.form-control {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    border: 1px solid #64748b;
+}
+
+.form-control:focus {
+    background-color: #0f172a;
+    color: #ffffff;
+    border-color: #38bdf8;
+    box-shadow: 0 0 5px #38bdf8;
+}
+
+.form-control::placeholder {
+    color: #94a3b8;
+}
+
+.form-label {
+    color: #e2e8f0;
+}
+
+.btn-primary {
+    background-color: #0284c7;
+    border: none;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #0369a1;
+}
+
+.custom-footer {
+    background-color: #0f172a;
+    color: #e2e8f0;
+}

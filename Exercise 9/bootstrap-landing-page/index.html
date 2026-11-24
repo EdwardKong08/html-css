@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighborhood Studio</title>
+
+    <link rel="stylesheet" href="vendor/bootstrap-5.3.9/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="custom.css">
+>
+    <script defer src="vendor/bootstrap-5.3.9/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+<header id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#home">
+                Neighborhood Studio
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero-section py-5">
+    <div class="container">
+        <div class="row align-items-center g-4">
+
+            <div class="col-md-6">
+                <p class="eyebrow mb-3">Local Creative Support</p>
+
+                <h1 class="display-4 fw-bold mb-4" id="page-title">
+                    A simple page for a small studio.
+                </h1>
+
+                <p class="mb-4">
+                    We help small businesses create beautiful,
+                    simple and creative ideas for their projects.
+                </p>
+
+                <a href="#contact" class="btn btn-primary btn-lg">
+                    Book a Session
+                </a>
+            </div>
+
+            <div class="col-md-6">
+                <div class="info-panel p-4">
+                    <h3 class="mb-3">What the page should show</h3>
+
+                    <ul>
+                        <li>Responsive navbar</li>
+                        <li>Hero layout</li>
+                        <li>Three service cards</li>
+                        <li>Contact form</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services-section py-5">
+    <div class="container">
+
+        <div class="text-center mb-4">
+            <p class="eyebrow">Our Services</p>
+
+            <h2 class="fw-bold mb-3" id="services-title">
+                Choose Our Services
+            </h2>
+
+            <p>
+                We provide creative support to help your ideas
+                become reality.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card service-card h-100 p-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Planning</h3>
+                        <p class="card-text">
+                            Turn an idea into a short page outline.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card service-card h-100 p-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Design Review</h3>
+                        <p class="card-text">
+                            Check spacing, typography and visual design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card service-card h-100 p-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Launch Check</h3>
+                        <p class="card-text">
+                            Test the page on mobile and desktop screens.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section py-5">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+
+                <p class="eyebrow">Contact Us</p>
+
+                <h2 class="fw-bold mb-4" id="contact-title">
+                    Send a Message
+                </h2>
+
+                <form>
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">
+                            Name
+                        </label>
+                        <input type="text" class="form-control"
+                            id="name" placeholder="Enter your name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">
+                            Email
+                        </label>
+                        <input type="email" class="form-control"
+                            id="email" placeholder="Enter your email">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">
+                            Message
+                        </label>
+                        <textarea class="form-control"
+                            id="message" rows="4"
+                            placeholder="Write your message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="custom-footer py-4">
+    <div class="container text-center">
+        <p class="mb-0">Neighborhood Studio © 2026</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
