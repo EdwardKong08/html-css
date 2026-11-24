@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #15151e;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+.event-page {
+  max-width: 1000px;
+  margin: 48px auto;
+  padding: 0 24px;
+}
+
+.feature-panel {
+  background-color: #252530;
+  color: #f1f1f1;
+  padding: 48px;
+  border-radius: 16px;
+  border-left: 5px solid #e10600;
+}
+
+.kicker {
+  color: #e10600;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+.feature-panel h1 {
+  font-size: 44px;
+  line-height: 1.1;
+  margin: 0 0 16px;
+  color: #f1f1f1;
+}
+
+.feature-intro {
+  max-width: 620px;
+  color: #bdbdc7;
+  margin-bottom: 24px;
+}
+
+.event-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.action {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.primary-action {
+  background-color: #e10600;
+  color: #f1f1f1;
+}
+
+.secondary-action {
+  background-color: #38383f;
+  color: #f1f1f1;
+}
+
+.action:hover,
+.action:focus {
+  background-color: #b30500;
+  outline: 3px solid #ff4d45;
+  outline-offset: 3px;
+}
+
+.session-section {
+  margin-top: 48px;
+}
+
+.session-heading {
+  max-width: 650px;
+  margin-bottom: 24px;
+}
+
+.session-heading h2 {
+  font-size: 30px;
+  margin: 0 0 12px;
+  color: #f1f1f1;
+}
+
+.session-heading > p:last-child {
+  color: #bdbdc7;
+}
+
+.session-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.session-card {
+  flex: 1 1 260px;
+  padding: 24px;
+  background-color: #252530;
+  border: 1px solid #38383f;
+  border-top: 5px solid #e10600;
+  border-radius: 12px;
+}
+
+.session-card h3 {
+  margin-top: 0;
+  color: #f1f1f1;
+}
+
+.session-card p {
+  color: #bdbdc7;
+}
+
+.session-meta {
+  font-weight: 700;
+  color: #e10600;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .event-page {
+    margin: 24px auto;
+    padding: 0 16px;
+  }
+
+  .feature-panel {
+    padding: 28px;
+  }
+
+  .feature-panel h1 {
+    font-size: 34px;
+  }
+
+  .session-heading h2 {
+    font-size: 24px;
+  }
+
+  .session-card {
+    flex-basis: 100%;
+  }
+}
