@@ -1,8 +1,10 @@
+
 body {
     color: #142238;
     background-color: #e3edf7;
 }
 
+/* Navbar background */
 .site-header {
     background-color: #d5e3f5;
 }
@@ -12,10 +14,12 @@ body {
     height: 34px;
 }
 
+/* Hero background */
 .hero-section {
     background: linear-gradient(120deg, #c4d4ef, #dbeafe);
 }
 
+/* Small section headings */
 .eyebrow {
     color: #087f80;
     font-size: 12px;
@@ -24,6 +28,7 @@ body {
     text-transform: uppercase;
 }
 
+/* Hero and proof images */
 .hero-media img,
 .proof-media img {
     width: 100%;
@@ -31,50 +36,57 @@ body {
     object-fit: cover;
 }
 
+/* Service card background and border */
 .service-item {
     background-color: #d5e3f5;
     border-color: #b5c9e3;
 }
 
+/* Service number colour */
 .service-number {
     color: #174cff;
 }
 
+/* Proof and contact backgrounds */
 .proof-section,
 .contact-section {
     background-color: #ccdff2;
 }
 
+/* Client logo boxes */
 .client-card {
     background-color: #d5e3f5;
     min-height: 85px;
     border-color: #b5c9e3 !important;
 }
 
+/* Client logo sizes */
 .client-card img {
     width: 120px;
     max-height: 45px;
     object-fit: contain;
 }
 
+/* Contact form background */
 .contact-form {
     background-color: #bcd2eb;
 }
 
+/* Form input backgrounds */
 .form-control,
 .form-select {
     background-color: #e3edf7;
     border-color: #9eb7d5;
 }
 
+/* Form input background when clicked */
 .form-control:focus,
 .form-select:focus {
     background-color: #d5e3f5;
 }
 
+/* Footer background and text colour */
 .site-footer {
     background-color: #142238;
     color: #c4d4ef;
 }
-
-
