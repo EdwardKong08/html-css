@@ -1,0 +1,80 @@
+body {
+    color: #142238;
+    background-color: #e3edf7;
+}
+
+.site-header {
+    background-color: #d5e3f5;
+}
+
+.brand-mark {
+    width: 34px;
+    height: 34px;
+}
+
+.hero-section {
+    background: linear-gradient(120deg, #c4d4ef, #dbeafe);
+}
+
+.eyebrow {
+    color: #087f80;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.hero-media img,
+.proof-media img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.service-item {
+    background-color: #d5e3f5;
+    border-color: #b5c9e3;
+}
+
+.service-number {
+    color: #174cff;
+}
+
+.proof-section,
+.contact-section {
+    background-color: #ccdff2;
+}
+
+.client-card {
+    background-color: #d5e3f5;
+    min-height: 85px;
+    border-color: #b5c9e3 !important;
+}
+
+.client-card img {
+    width: 120px;
+    max-height: 45px;
+    object-fit: contain;
+}
+
+.contact-form {
+    background-color: #bcd2eb;
+}
+
+.form-control,
+.form-select {
+    background-color: #e3edf7;
+    border-color: #9eb7d5;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #d5e3f5;
+}
+
+.site-footer {
+    background-color: #142238;
+    color: #c4d4ef;
+}
+
+
